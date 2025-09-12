@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E5BB9B3273FBA492E272226 /* libPods-PlateSpotter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC53A1913EA0DF9B0DBC459 /* libPods-PlateSpotter.a */; };
+		292FB8F74706498104B06117 /* libPods-PlateSpotter-PlateSpotterUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73065DEAFAD2A6CF2C15EAEF /* libPods-PlateSpotter-PlateSpotterUITests.a */; };
+		9470CFA8E1D6A1B856B3788C /* libPods-PlateSpotterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83CDC40729D1DDF5711ED7D5 /* libPods-PlateSpotterTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5D515492E2E5FC9008B7BDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5D515332E2E5FC7008B7BDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5D5153A2E2E5FC7008B7BDC;
+			remoteInfo = PlateSpotter;
+		};
+		C5D515532E2E5FC9008B7BDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5D515332E2E5FC7008B7BDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5D5153A2E2E5FC7008B7BDC;
+			remoteInfo = PlateSpotter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		466C51FD95D428702A48D60F /* Pods-PlateSpotterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlateSpotterTests.release.xcconfig"; path = "Target Support Files/Pods-PlateSpotterTests/Pods-PlateSpotterTests.release.xcconfig"; sourceTree = "<group>"; };
+		5BEC7B18BA9EEEC2D6A43D29 /* Pods-PlateSpotter-PlateSpotterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlateSpotter-PlateSpotterUITests.debug.xcconfig"; path = "Target Support Files/Pods-PlateSpotter-PlateSpotterUITests/Pods-PlateSpotter-PlateSpotterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D9C26BC9D94353A726BC5D9 /* Pods-PlateSpotterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlateSpotterTests.debug.xcconfig"; path = "Target Support Files/Pods-PlateSpotterTests/Pods-PlateSpotterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		722304379FF4BF69668F525D /* Pods-PlateSpotter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlateSpotter.debug.xcconfig"; path = "Target Support Files/Pods-PlateSpotter/Pods-PlateSpotter.debug.xcconfig"; sourceTree = "<group>"; };
+		73065DEAFAD2A6CF2C15EAEF /* libPods-PlateSpotter-PlateSpotterUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlateSpotter-PlateSpotterUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CDC40729D1DDF5711ED7D5 /* libPods-PlateSpotterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlateSpotterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		911FBFB32C0453AC71AB6AC0 /* Pods-PlateSpotter-PlateSpotterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlateSpotter-PlateSpotterUITests.release.xcconfig"; path = "Target Support Files/Pods-PlateSpotter-PlateSpotterUITests/Pods-PlateSpotter-PlateSpotterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9EC53A1913EA0DF9B0DBC459 /* libPods-PlateSpotter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlateSpotter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D5153B2E2E5FC7008B7BDC /* PlateSpotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlateSpotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D515482E2E5FC9008B7BDC /* PlateSpotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlateSpotterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D515522E2E5FC9008B7BDC /* PlateSpotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlateSpotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58653AE0D601994F5E0D247 /* Pods-PlateSpotter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlateSpotter.release.xcconfig"; path = "Target Support Files/Pods-PlateSpotter/Pods-PlateSpotter.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C51923732E4CACF400F5633D /* Exceptions for "PlateSpotter" folder in "PlateSpotter" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C5D5153A2E2E5FC7008B7BDC /* PlateSpotter */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C5D5153D2E2E5FC7008B7BDC /* PlateSpotter */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C51923732E4CACF400F5633D /* Exceptions for "PlateSpotter" folder in "PlateSpotter" target */,
+			);
+			path = PlateSpotter;
+			sourceTree = "<group>";
+		};
+		C5D5154B2E2E5FC9008B7BDC /* PlateSpotterTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PlateSpotterTests;
+			sourceTree = "<group>";
+		};
+		C5D515552E2E5FC9008B7BDC /* PlateSpotterUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PlateSpotterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5D515382E2E5FC7008B7BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5BB9B3273FBA492E272226 /* libPods-PlateSpotter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D515452E2E5FC9008B7BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9470CFA8E1D6A1B856B3788C /* libPods-PlateSpotterTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D5154F2E2E5FC9008B7BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292FB8F74706498104B06117 /* libPods-PlateSpotter-PlateSpotterUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		306CA641CCA4350112DD1E0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EC53A1913EA0DF9B0DBC459 /* libPods-PlateSpotter.a */,
+				73065DEAFAD2A6CF2C15EAEF /* libPods-PlateSpotter-PlateSpotterUITests.a */,
+				83CDC40729D1DDF5711ED7D5 /* libPods-PlateSpotterTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E2B1E4A8235B43346606F36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				722304379FF4BF69668F525D /* Pods-PlateSpotter.debug.xcconfig */,
+				D58653AE0D601994F5E0D247 /* Pods-PlateSpotter.release.xcconfig */,
+				5BEC7B18BA9EEEC2D6A43D29 /* Pods-PlateSpotter-PlateSpotterUITests.debug.xcconfig */,
+				911FBFB32C0453AC71AB6AC0 /* Pods-PlateSpotter-PlateSpotterUITests.release.xcconfig */,
+				5D9C26BC9D94353A726BC5D9 /* Pods-PlateSpotterTests.debug.xcconfig */,
+				466C51FD95D428702A48D60F /* Pods-PlateSpotterTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5D515322E2E5FC7008B7BDC = {
+			isa = PBXGroup;
+			children = (
+				C5D5153D2E2E5FC7008B7BDC /* PlateSpotter */,
+				C5D5154B2E2E5FC9008B7BDC /* PlateSpotterTests */,
+				C5D515552E2E5FC9008B7BDC /* PlateSpotterUITests */,
+				C5D5153C2E2E5FC7008B7BDC /* Products */,
+				7E2B1E4A8235B43346606F36 /* Pods */,
+				306CA641CCA4350112DD1E0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5D5153C2E2E5FC7008B7BDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5D5153B2E2E5FC7008B7BDC /* PlateSpotter.app */,
+				C5D515482E2E5FC9008B7BDC /* PlateSpotterTests.xctest */,
+				C5D515522E2E5FC9008B7BDC /* PlateSpotterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5D5153A2E2E5FC7008B7BDC /* PlateSpotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D5155C2E2E5FC9008B7BDC /* Build configuration list for PBXNativeTarget "PlateSpotter" */;
+			buildPhases = (
+				6D4943879814E3C2BEA0421E /* [CP] Check Pods Manifest.lock */,
+				C5D515372E2E5FC7008B7BDC /* Sources */,
+				C5D515382E2E5FC7008B7BDC /* Frameworks */,
+				C5D515392E2E5FC7008B7BDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C5D5153D2E2E5FC7008B7BDC /* PlateSpotter */,
+			);
+			name = PlateSpotter;
+			productName = PlateSpotter;
+			productReference = C5D5153B2E2E5FC7008B7BDC /* PlateSpotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5D515472E2E5FC9008B7BDC /* PlateSpotterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D5155F2E2E5FC9008B7BDC /* Build configuration list for PBXNativeTarget "PlateSpotterTests" */;
+			buildPhases = (
+				A2BB36A367C0FEACE70126C1 /* [CP] Check Pods Manifest.lock */,
+				C5D515442E2E5FC9008B7BDC /* Sources */,
+				C5D515452E2E5FC9008B7BDC /* Frameworks */,
+				C5D515462E2E5FC9008B7BDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5D5154A2E2E5FC9008B7BDC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C5D5154B2E2E5FC9008B7BDC /* PlateSpotterTests */,
+			);
+			name = PlateSpotterTests;
+			productName = PlateSpotterTests;
+			productReference = C5D515482E2E5FC9008B7BDC /* PlateSpotterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5D515512E2E5FC9008B7BDC /* PlateSpotterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D515622E2E5FC9008B7BDC /* Build configuration list for PBXNativeTarget "PlateSpotterUITests" */;
+			buildPhases = (
+				B9D4FB2643A59960A636F7A2 /* [CP] Check Pods Manifest.lock */,
+				C5D5154E2E2E5FC9008B7BDC /* Sources */,
+				C5D5154F2E2E5FC9008B7BDC /* Frameworks */,
+				C5D515502E2E5FC9008B7BDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5D515542E2E5FC9008B7BDC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C5D515552E2E5FC9008B7BDC /* PlateSpotterUITests */,
+			);
+			name = PlateSpotterUITests;
+			productName = PlateSpotterUITests;
+			productReference = C5D515522E2E5FC9008B7BDC /* PlateSpotterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5D515332E2E5FC7008B7BDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					C5D5153A2E2E5FC7008B7BDC = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					C5D515472E2E5FC9008B7BDC = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = C5D5153A2E2E5FC7008B7BDC;
+					};
+					C5D515512E2E5FC9008B7BDC = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = C5D5153A2E2E5FC7008B7BDC;
+					};
+				};
+			};
+			buildConfigurationList = C5D515362E2E5FC7008B7BDC /* Build configuration list for PBXProject "PlateSpotter" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5D515322E2E5FC7008B7BDC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C5D5153C2E2E5FC7008B7BDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5D5153A2E2E5FC7008B7BDC /* PlateSpotter */,
+				C5D515472E2E5FC9008B7BDC /* PlateSpotterTests */,
+				C5D515512E2E5FC9008B7BDC /* PlateSpotterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5D515392E2E5FC7008B7BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D515462E2E5FC9008B7BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D515502E2E5FC9008B7BDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D4943879814E3C2BEA0421E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlateSpotter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2BB36A367C0FEACE70126C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlateSpotterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9D4FB2643A59960A636F7A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlateSpotter-PlateSpotterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5D515372E2E5FC7008B7BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D515442E2E5FC9008B7BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D5154E2E2E5FC9008B7BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5D5154A2E2E5FC9008B7BDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5D5153A2E2E5FC7008B7BDC /* PlateSpotter */;
+			targetProxy = C5D515492E2E5FC9008B7BDC /* PBXContainerItemProxy */;
+		};
+		C5D515542E2E5FC9008B7BDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5D5153A2E2E5FC7008B7BDC /* PlateSpotter */;
+			targetProxy = C5D515532E2E5FC9008B7BDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C5D5155A2E2E5FC9008B7BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5D5155B2E2E5FC9008B7BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5D5155D2E2E5FC9008B7BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 722304379FF4BF69668F525D /* Pods-PlateSpotter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PlateSpotter/PlateSpotter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BHQ9LS9D2D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlateSpotter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PlateSpotter;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VladKarpov.PlateSpotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5D5155E2E2E5FC9008B7BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D58653AE0D601994F5E0D247 /* Pods-PlateSpotter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PlateSpotter/PlateSpotter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BHQ9LS9D2D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlateSpotter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PlateSpotter;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.VladKarpov.PlateSpotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C5D515602E2E5FC9008B7BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D9C26BC9D94353A726BC5D9 /* Pods-PlateSpotterTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VladKarpov.PlateSpotterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlateSpotter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlateSpotter";
+			};
+			name = Debug;
+		};
+		C5D515612E2E5FC9008B7BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466C51FD95D428702A48D60F /* Pods-PlateSpotterTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VladKarpov.PlateSpotterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlateSpotter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PlateSpotter";
+			};
+			name = Release;
+		};
+		C5D515632E2E5FC9008B7BDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BEC7B18BA9EEEC2D6A43D29 /* Pods-PlateSpotter-PlateSpotterUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VladKarpov.PlateSpotterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlateSpotter;
+			};
+			name = Debug;
+		};
+		C5D515642E2E5FC9008B7BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911FBFB32C0453AC71AB6AC0 /* Pods-PlateSpotter-PlateSpotterUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VladKarpov.PlateSpotterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlateSpotter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5D515362E2E5FC7008B7BDC /* Build configuration list for PBXProject "PlateSpotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D5155A2E2E5FC9008B7BDC /* Debug */,
+				C5D5155B2E2E5FC9008B7BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D5155C2E2E5FC9008B7BDC /* Build configuration list for PBXNativeTarget "PlateSpotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D5155D2E2E5FC9008B7BDC /* Debug */,
+				C5D5155E2E2E5FC9008B7BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D5155F2E2E5FC9008B7BDC /* Build configuration list for PBXNativeTarget "PlateSpotterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D515602E2E5FC9008B7BDC /* Debug */,
+				C5D515612E2E5FC9008B7BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D515622E2E5FC9008B7BDC /* Build configuration list for PBXNativeTarget "PlateSpotterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D515632E2E5FC9008B7BDC /* Debug */,
+				C5D515642E2E5FC9008B7BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5D515332E2E5FC7008B7BDC /* Project object */;
+}
