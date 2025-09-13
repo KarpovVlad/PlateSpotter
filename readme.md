@@ -27,7 +27,7 @@ It integrates **computer vision, OCR**, and **APIs** to fetch detailed car infor
 Вхід через **Apple, email** або як **гість**.  
 Login via **Apple, Google, email** or as **guest**.
 
-![Screenshot 1](docs/screenshots/auth.png)
+<img src="docs/screenshots/auth.png" alt="Screenshot 1" width="300"/>
 
 ---
 
@@ -43,7 +43,7 @@ STILL IN PROCESS
 Розпізнавання номерів із **зображення галереї**.  
 Detect license plates from **gallery images**.
 
-![Screenshot 3](docs/screenshots/gallery.png)
+<img src="docs/screenshots/gallery.png" alt="Screenshot 3" width="300"/>
 
 ---
 
@@ -51,11 +51,11 @@ Detect license plates from **gallery images**.
 Отримання детальної інформації через **бекенд** (FastAPI + PostgreSQL).  
 Fetch detailed car info from **backend**.
 
-![Screenshot 4](docs/screenshots/search.png)
+<img src="docs/screenshots/search.png" alt="Screenshot 4" width="300"/>
 
 Пошук переходить в результат 
 Results of the search
-![Screenshot 5](docs/screenshots/result.png)
+<img src="docs/screenshots/result.png" alt="Screenshot 5" width="300"/>
 ---
 
 ### 5. Історія запитів | Search History
@@ -68,7 +68,7 @@ Store **last 10 recognized plates**.
 Пошук номерів зі списку брендів та моделей авто.  
 Search plates from list of **car brands/models**.
 
-![Screenshot 6](docs/screenshots/reverse.png)
+<img src="docs/screenshots/reverse.png" alt="Screenshot 6" width="300"/>
 
 ---
 
