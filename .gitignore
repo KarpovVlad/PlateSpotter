@@ -1,5 +1,5 @@
-.backend/app/.env
-.backend/file_info.json
+/Users/vladkarpov/PycharmProjects/PlateSpotter/backend/app/.env
+/Users/vladkarpov/PycharmProjects/PlateSpotter/backend/file_info.json
 .venv/
 .frontend/Podfile
 .frontend/Podfile.lock
